@@ -646,6 +646,78 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VERIFIER",
+          "name": "VERIFIER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey_Part_Number",
+          "name": "DigiKey_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CREATOR",
+          "name": "CREATOR",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -696,7 +768,7 @@
         "uuid": "ffd4cbb8-2f4c-4090-aea2-31efecffc020"
       }
     ],
-    "used_designators": "CN1,#PWR2-6,#PWR8-9,#PWR13-15,#PWR18-27,#PWR34-36,#PWR39-62,C14-23,R2,R6-8,R13-20,H1-2,RV1,F1,U4-9,J1",
+    "used_designators": "CN1,#PWR2-6,#PWR8-9,#PWR13-15,#PWR18-27,#PWR34-36,#PWR39-63,C14-23,R2,R6-8,R13-29,H1-2,RV1,F1,U1,U4-9,J1-2,SW1,LED1-6",
     "variants": []
   },
   "sheets": [
@@ -707,6 +779,10 @@
     [
       "ecf02a18-d543-439d-a229-a65249201b6e",
       "power"
+    ],
+    [
+      "da5cf7d1-0212-4e0a-aa0a-1db888db9f62",
+      "resistor chain"
     ]
   ],
   "text_variables": {},
