@@ -1217,9 +1217,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_DPST"
+		(symbol "Switch:SW_Nidec_CAS-120A1"
 			(pin_names
-				(offset 0)
+				(offset 1)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1228,7 +1228,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SW"
-				(at 0 6.35 0)
+				(at 0 4.318 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1237,7 +1237,7 @@
 					)
 				)
 			)
-			(property "Value" "SW_DPST"
+			(property "Value" "SW_Nidec_CAS-120A1"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1247,7 +1247,29 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1258,7 +1280,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1269,7 +1291,7 @@
 					)
 				)
 			)
-			(property "Description" "Double Pole Single Throw (DPST) Switch"
+			(property "ki_fp_filters" "*Nidec?Copal?CAS?120A*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1280,32 +1302,10 @@
 					)
 				)
 			)
-			(property "ki_keywords" "switch dual double-pole single-throw OFF-ON"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_DPST_0_0"
+			(symbol "SW_Nidec_CAS-120A1_0_1"
 				(circle
-					(center -2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 -2.54)
-					(radius 0.508)
+					(center -2.032 0)
+					(radius 0.4572)
 					(stroke
 						(width 0)
 						(type default)
@@ -1316,67 +1316,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 2.794) (xy 1.27 4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -2.286) (xy 1.27 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -0.635)
+						(xy -1.651 0.254) (xy 1.651 2.286)
 					)
 					(stroke
 						(width 0)
@@ -1388,7 +1328,7 @@
 				)
 				(circle
 					(center 2.032 2.54)
-					(radius 0.508)
+					(radius 0.4572)
 					(stroke
 						(width 0)
 						(type default)
@@ -1399,7 +1339,7 @@
 				)
 				(circle
 					(center 2.032 -2.54)
-					(radius 0.508)
+					(radius 0.4572)
 					(stroke
 						(width 0)
 						(type default)
@@ -1409,9 +1349,9 @@
 					)
 				)
 			)
-			(symbol "SW_DPST_1_1"
+			(symbol "SW_Nidec_CAS-120A1_1_1"
 				(rectangle
-					(start -3.175 4.445)
+					(start -3.175 3.81)
 					(end 3.175 -3.81)
 					(stroke
 						(width 0)
@@ -1422,9 +1362,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 5.08 -2.54 180)
 					(length 2.54)
-					(name "1"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1440,9 +1380,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "2"
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1450,24 +1390,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1478,182 +1400,7 @@
 				(pin passive line
 					(at 5.08 2.54 180)
 					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_MEC_5G"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_MEC_5G"
-				(at 0 -1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5G.pdf"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "MEC 5G single pole normally-open tactile switch"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SW*MEC*5G*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_MEC_5G_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
 					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1661,46 +1408,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_MEC_5G_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5319,6 +5026,12 @@
 		(uuid "24dc7710-a972-4369-8c4e-0c10f072c784")
 	)
 	(junction
+		(at 163.83 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f2a2626-a4fa-4d76-88e3-e10a87733ced")
+	)
+	(junction
 		(at 135.89 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5329,12 +5042,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "438486e6-6c0b-46ad-b328-d9bfaa91e997")
-	)
-	(junction
-		(at 163.83 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a20afa5-221a-4dae-acb8-3f96bdef9030")
 	)
 	(junction
 		(at 180.34 45.72)
@@ -5365,6 +5072,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "780e726e-d837-4bb9-989d-119918af1dd0")
+	)
+	(junction
+		(at 173.99 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7825ca7e-885c-4aa9-bf8a-796095ac3559")
 	)
 	(junction
 		(at 168.91 58.42)
@@ -5433,6 +5146,12 @@
 		(uuid "c1d88753-eae5-4aaa-b2ae-e922ababad39")
 	)
 	(junction
+		(at 179.07 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c485954a-9e65-4fc6-bbca-e7cbbed8a39f")
+	)
+	(junction
 		(at 55.88 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5449,12 +5168,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6441030-fe36-482a-8ded-312ea63e88e7")
-	)
-	(junction
-		(at 177.8 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d82898ec-1e1e-4f38-86e3-c1606b4cccce")
 	)
 	(junction
 		(at 133.35 39.37)
@@ -5572,6 +5285,10 @@
 		(at 78.74 67.31)
 		(uuid "dd92aec7-9265-442c-8e05-bd39d0aa3549")
 	)
+	(no_connect
+		(at 66.04 59.69)
+		(uuid "f878caac-1437-4e6a-8914-89ce80336749")
+	)
 	(wire
 		(pts
 			(xy 133.35 29.21) (xy 133.35 39.37)
@@ -5654,6 +5371,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 138.43) (xy 181.61 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c49c245-af11-48cf-8d64-f3458ce9257a")
+	)
+	(wire
+		(pts
 			(xy 152.4 39.37) (xy 152.4 43.18)
 		)
 		(stroke
@@ -5681,6 +5408,16 @@
 			(type default)
 		)
 		(uuid "0ee6c684-cfaa-45b8-b872-112aa7b55a61")
+	)
+	(wire
+		(pts
+			(xy 190.5 125.73) (xy 190.5 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f8ccb97-94c9-4f45-bc84-c41a8aa9f674")
 	)
 	(wire
 		(pts
@@ -5924,16 +5661,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 138.43) (xy 181.61 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "256c1183-0ff1-4181-9d0d-e4f54f3d6c13")
-	)
-	(wire
-		(pts
 			(xy 232.41 109.22) (xy 234.95 109.22)
 		)
 		(stroke
@@ -6031,6 +5758,16 @@
 			(type default)
 		)
 		(uuid "32b37d49-bbea-481e-b3f5-1063ea4541a0")
+	)
+	(wire
+		(pts
+			(xy 115.57 138.43) (xy 113.03 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33637d5c-36a6-4357-b28b-e2da17cec076")
 	)
 	(wire
 		(pts
@@ -6344,16 +6081,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 54.61) (xy 55.88 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b5dea21-e186-4876-82cd-d7e192412752")
-	)
-	(wire
-		(pts
 			(xy 50.8 170.18) (xy 50.8 172.72)
 		)
 		(stroke
@@ -6381,6 +6108,16 @@
 			(type default)
 		)
 		(uuid "61a59d75-cb95-4e89-9ffd-81ba0d294bf6")
+	)
+	(wire
+		(pts
+			(xy 113.03 138.43) (xy 113.03 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6330da9a-b842-48d9-9a92-0b9ab15114bb")
 	)
 	(wire
 		(pts
@@ -6454,13 +6191,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 173.99) (xy 146.05 173.99)
+			(xy 189.23 135.89) (xy 190.5 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e6da11b-c102-4d0b-ac80-9f31c8ad7784")
+		(uuid "6e87da83-0558-46a6-a163-6a0f05c816f6")
 	)
 	(wire
 		(pts
@@ -6491,6 +6228,16 @@
 			(type default)
 		)
 		(uuid "70c5b08b-f2e7-4e24-b35a-7aa8b7d50de3")
+	)
+	(wire
+		(pts
+			(xy 173.99 138.43) (xy 179.07 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "718cc592-86c9-4298-b78c-597941f6b346")
 	)
 	(wire
 		(pts
@@ -6664,7 +6411,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 138.43) (xy 177.8 138.43)
+			(xy 172.72 138.43) (xy 173.99 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6684,7 +6431,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 135.89) (xy 115.57 135.89)
+			(xy 113.03 133.35) (xy 115.57 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6714,7 +6461,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 138.43) (xy 177.8 139.7)
+			(xy 173.99 138.43) (xy 173.99 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6934,7 +6681,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 138.43) (xy 167.64 138.43)
+			(xy 163.83 138.43) (xy 165.1 138.43)
 		)
 		(stroke
 			(width 0)
@@ -7124,17 +6871,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 173.99) (xy 172.72 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da9b3cb1-789e-4c72-b285-7ddd573f03d8")
-	)
-	(wire
-		(pts
-			(xy 191.77 138.43) (xy 189.23 138.43)
+			(xy 191.77 140.97) (xy 189.23 140.97)
 		)
 		(stroke
 			(width 0)
@@ -7294,7 +7031,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 147.32) (xy 177.8 148.59)
+			(xy 173.99 147.32) (xy 173.99 148.59)
 		)
 		(stroke
 			(width 0)
@@ -7522,16 +7259,6 @@
 		)
 		(uuid "28c029cc-7715-4056-b12e-2d1facd09e0f")
 	)
-	(label "switch_out"
-		(at 125.73 140.97 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2a52531e-2fa7-4c26-891a-1d086cdb4284")
-	)
 	(label "GP4"
 		(at 262.89 127 0)
 		(effects
@@ -7553,7 +7280,7 @@
 		(uuid "2e5b6e07-d33b-4c60-9ddd-906c53cdd393")
 	)
 	(label "switchin"
-		(at 181.61 138.43 90)
+		(at 179.07 138.43 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7561,26 +7288,6 @@
 			(justify left bottom)
 		)
 		(uuid "2f14f0e8-b393-4388-9862-c2ae96113fd7")
-	)
-	(label "gain_out"
-		(at 132.08 173.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "367592ea-080c-43dc-933e-2fd831c9fd98")
-	)
-	(label "A_out"
-		(at 172.72 173.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3daf0f62-7b3c-4140-adbc-3d29cfeb7d61")
 	)
 	(label "GP22"
 		(at 73.66 57.15 180)
@@ -7623,7 +7330,7 @@
 		(uuid "5cbd9331-be8d-4c21-83a3-ccf6f095ca84")
 	)
 	(label "A_out"
-		(at 191.77 138.43 0)
+		(at 191.77 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7661,6 +7368,16 @@
 			(justify left bottom)
 		)
 		(uuid "6540be32-0b30-413d-8ce9-f95e66646584")
+	)
+	(label "RUN"
+		(at 76.2 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "68d7c31f-fcd7-416d-a71c-d1b87f3abb18")
 	)
 	(label "GP20"
 		(at 73.66 64.77 180)
@@ -7701,16 +7418,6 @@
 			(justify right bottom)
 		)
 		(uuid "77d7ea62-a222-4a57-8a3a-19b9c0e31678")
-	)
-	(label "switchin"
-		(at 115.57 140.97 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "791e32d7-d602-4b8f-a0d2-fd09edd110e6")
 	)
 	(label "GP17"
 		(at 73.66 74.93 180)
@@ -7783,7 +7490,7 @@
 		(uuid "9a3e9c72-466c-4ba2-971b-8182710fb416")
 	)
 	(label "gain_out"
-		(at 113.03 135.89 90)
+		(at 113.03 133.35 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7853,7 +7560,7 @@
 		(uuid "c2548454-13e7-4215-a748-a447c21b8082")
 	)
 	(label "switch_out"
-		(at 189.23 138.43 90)
+		(at 189.23 140.97 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7881,16 +7588,6 @@
 			(justify right bottom)
 		)
 		(uuid "d2a554c8-a9f5-44e5-a241-ad22a934d707")
-	)
-	(label "RUN"
-		(at 52.07 54.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d37bfd5e-ddf5-4ece-b2ff-2732dc2d2492")
 	)
 	(label "GP3"
 		(at 36.83 39.37 0)
@@ -8673,6 +8370,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 113.03 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "164cccf5-f986-4d96-953b-b77033a26b67")
+		(property "Reference" "#PWR041"
+			(at 113.03 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37c208b8-6e63-472d-81b4-99c4dd82d1cf")
+		)
+		(instances
+			(project "instrumental_integrator"
+				(path "/ffd4cbb8-2f4c-4090-aea2-31efecffc020"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 167.64 86.36 270)
 		(unit 1)
@@ -9156,6 +8931,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 120.65 135.89 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c612338-7b92-415c-96f5-9a1a46cb2589")
+		(property "Reference" "SW3"
+			(at 120.65 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Nidec_CAS-120A1"
+			(at 120.65 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 120.65 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 120.65 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 120.65 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "24569d5b-8ad6-4456-90ee-c8df40a69679")
+		)
+		(pin "2"
+			(uuid "dcf4f6c1-c240-4ace-a6fe-d196cdd29fce")
+		)
+		(pin "3"
+			(uuid "5622dd0e-f735-49ca-84db-6f2ae2017e69")
+		)
+		(instances
+			(project "instrumental_integrator"
+				(path "/ffd4cbb8-2f4c-4090-aea2-31efecffc020"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 189.23 43.18 90)
 		(unit 1)
@@ -9631,7 +9489,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 171.45 138.43 270)
+		(at 168.91 138.43 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9642,7 +9500,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b4daa1c-c102-4699-80a8-c66d65921b84")
 		(property "Reference" "R9"
-			(at 171.45 132.08 90)
+			(at 168.91 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9652,7 +9510,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 171.45 134.62 90)
+			(at 168.91 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9662,7 +9520,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 136.652 90)
+			(at 168.91 136.652 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9673,7 +9531,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 138.43 0)
+			(at 168.91 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9684,7 +9542,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 171.45 138.43 0)
+			(at 168.91 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10502,7 +10360,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 148.59 0)
+		(at 173.99 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10513,7 +10371,7 @@
 		(fields_autoplaced yes)
 		(uuid "37d26a0b-f16a-4ecb-aef0-1900da90ccab")
 		(property "Reference" "#PWR037"
-			(at 177.8 154.94 0)
+			(at 173.99 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10524,7 +10382,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 153.67 0)
+			(at 173.99 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10534,7 +10392,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 148.59 0)
+			(at 173.99 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10545,7 +10403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 148.59 0)
+			(at 173.99 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10556,7 +10414,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 148.59 0)
+			(at 173.99 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10736,92 +10594,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 151.13 173.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b21d0d4-d6a8-4a48-88ac-0281c6f85f25")
-		(property "Reference" "SW7"
-			(at 151.13 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 151.13 168.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5G.pdf"
-			(at 151.13 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 151.13 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5960f4cf-3a62-48e0-9841-dcc4e67ca35f")
-		)
-		(pin "1"
-			(uuid "9b84c1dd-52a1-4326-8ea0-affed72c5ec5")
-		)
-		(pin "3"
-			(uuid "0146b1eb-9eec-45c8-8a6e-165189cc0ca8")
-		)
-		(pin "4"
-			(uuid "9bdae0b0-f9ac-4c92-b86f-cb15e9db653f")
-		)
-		(instances
-			(project "instrumental_integrator"
-				(path "/ffd4cbb8-2f4c-4090-aea2-31efecffc020"
-					(reference "SW7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "easyeda2kicad:INA828IDR")
 		(at 165.1 44.45 0)
 		(unit 1)
@@ -10947,6 +10719,89 @@
 			(project "instrumental_integrator"
 				(path "/ffd4cbb8-2f4c-4090-aea2-31efecffc020"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 60.96 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f345c0f-c4a2-4fe4-b01f-9327b4d6f03e")
+		(property "Reference" "SW2"
+			(at 60.96 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Nidec_CAS-120A1"
+			(at 60.96 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 60.96 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 60.96 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 60.96 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08b80587-ddf2-4caa-a2ce-cff3a8be06e0")
+		)
+		(pin "2"
+			(uuid "5c51b468-8eb1-406d-b0dd-47f1c5bbbbe0")
+		)
+		(pin "3"
+			(uuid "b65526ec-31be-4c06-a326-dcb51d702c47")
+		)
+		(instances
+			(project "instrumental_integrator"
+				(path "/ffd4cbb8-2f4c-4090-aea2-31efecffc020"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -11907,6 +11762,84 @@
 			(project "instrumental_integrator"
 				(path "/ffd4cbb8-2f4c-4090-aea2-31efecffc020"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 125.73 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68d94258-58bc-47ac-b730-c89a1e09471b")
+		(property "Reference" "#PWR062"
+			(at 190.5 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b49cb3e0-2753-4525-b975-75a783906851")
+		)
+		(instances
+			(project "instrumental_integrator"
+				(path "/ffd4cbb8-2f4c-4090-aea2-31efecffc020"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -13777,7 +13710,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 177.8 143.51 0)
+		(at 173.99 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13788,7 +13721,7 @@
 		(fields_autoplaced yes)
 		(uuid "99863848-1c0e-4c54-a302-ff7ea4457990")
 		(property "Reference" "C13"
-			(at 181.61 142.2399 0)
+			(at 177.8 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13799,7 +13732,7 @@
 			)
 		)
 		(property "Value" "2.2n"
-			(at 181.61 144.7799 0)
+			(at 177.8 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13810,7 +13743,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 178.7652 147.32 0)
+			(at 174.9552 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13821,7 +13754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 143.51 0)
+			(at 173.99 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13832,7 +13765,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 177.8 143.51 0)
+			(at 173.99 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15288,92 +15221,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DPST")
-		(at 120.65 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd999b47-148a-46c2-8942-6fa039c1ae3d")
-		(property "Reference" "SW2"
-			(at 120.65 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DPST"
-			(at 120.65 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Double Pole Single Throw (DPST) Switch"
-			(at 120.65 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "20661841-8cc7-4cd3-83b6-2d0c77d18d1f")
-		)
-		(pin "2"
-			(uuid "1d447fad-dabc-4dc4-ac21-a7107123300f")
-		)
-		(pin "3"
-			(uuid "73a2228d-69cd-4310-ad6d-9817d4de6fa3")
-		)
-		(pin "1"
-			(uuid "33a47ec4-f4ac-4690-a26b-1b594617c730")
-		)
-		(instances
-			(project "instrumental_integrator"
-				(path "/ffd4cbb8-2f4c-4090-aea2-31efecffc020"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-2V5")
 		(at 161.29 62.23 180)
 		(unit 1)
@@ -15686,6 +15533,85 @@
 			(project "instrumental_integrator"
 				(path "/ffd4cbb8-2f4c-4090-aea2-31efecffc020"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 57.15 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2edb699-38ae-4da1-b535-3708e02c7b18")
+		(property "Reference" "#PWR066"
+			(at 49.53 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 57.1499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "24631036-8a3b-41f3-908e-fd4669e40f61")
+		)
+		(instances
+			(project "instrumental_integrator"
+				(path "/ffd4cbb8-2f4c-4090-aea2-31efecffc020"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -16365,92 +16291,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 60.96 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7807f07-756e-438d-a6c6-4922305ea7fd")
-		(property "Reference" "SW4"
-			(at 60.96 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 60.96 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5G.pdf"
-			(at 60.96 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 60.96 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "aa2502aa-8685-42c7-86f7-82436fb4ffa9")
-		)
-		(pin "1"
-			(uuid "f824eb4e-1f5c-4570-aecb-a3a6d9bcb934")
-		)
-		(pin "3"
-			(uuid "e0c424d1-1616-45d3-8d4d-6289f8d69bef")
-		)
-		(pin "4"
-			(uuid "7459b34a-55cd-4a12-8b49-55c971dc94d4")
-		)
-		(instances
-			(project "instrumental_integrator"
-				(path "/ffd4cbb8-2f4c-4090-aea2-31efecffc020"
-					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 78.74 59.69 270)
 		(unit 1)
@@ -16524,6 +16364,89 @@
 			(project "instrumental_integrator"
 				(path "/ffd4cbb8-2f4c-4090-aea2-31efecffc020"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 184.15 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1b1e9fe-6c70-41d8-a1b0-4355d6d87901")
+		(property "Reference" "SW4"
+			(at 184.15 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Nidec_CAS-120A1"
+			(at 184.15 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 184.15 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 184.15 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 184.15 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa0a0597-7f3e-4bbe-a589-23f3b79fb2af")
+		)
+		(pin "2"
+			(uuid "050dc9ea-727d-452e-abc8-e465fdbfc148")
+		)
+		(pin "3"
+			(uuid "a349cba9-bb14-4f42-b660-325071849b28")
+		)
+		(instances
+			(project "instrumental_integrator"
+				(path "/ffd4cbb8-2f4c-4090-aea2-31efecffc020"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
