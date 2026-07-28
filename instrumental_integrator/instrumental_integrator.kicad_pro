@@ -536,7 +536,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "/Users/julie/Desktop/bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": "\t",
@@ -776,7 +776,7 @@
         "uuid": "ffd4cbb8-2f4c-4090-aea2-31efecffc020"
       }
     ],
-    "used_designators": "",
+    "used_designators": "SW2",
     "variants": []
   },
   "sheets": [
