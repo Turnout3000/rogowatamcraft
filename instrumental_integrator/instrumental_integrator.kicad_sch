@@ -4847,7 +4847,7 @@
 	)
 	(rectangle
 		(start 110.49 73.66)
-		(end 198.12 180.34)
+		(end 198.12 165.1)
 		(stroke
 			(width 0)
 			(type default)
@@ -15465,7 +15465,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "14.8k"
 			(at 138.43 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
