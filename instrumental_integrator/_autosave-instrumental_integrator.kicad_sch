@@ -10018,12 +10018,12 @@
 		(uuid "28c029cc-7715-4056-b12e-2d1facd09e0f")
 	)
 	(label "GP4"
-		(at 262.89 127 0)
+		(at 262.89 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "2a661030-fce7-4f07-9416-cfcb92a3f9b7")
 	)
@@ -10108,12 +10108,12 @@
 		(uuid "5cbd9331-be8d-4c21-83a3-ccf6f095ca84")
 	)
 	(label "A_out"
-		(at 191.77 135.89 0)
+		(at 191.77 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6225580b-0231-4e1a-aad4-7b4ae029492a")
 	)
@@ -10368,12 +10368,12 @@
 		(uuid "bffd75be-94a5-4888-885d-28dc352fe27f")
 	)
 	(label "GP3"
-		(at 262.89 124.46 0)
+		(at 262.89 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c2548454-13e7-4215-a748-a447c21b8082")
 	)
